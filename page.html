@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="bodyImgPage">
+
+
+  <div class="modal fade" id="modalVideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+          </div>
+          <div class="modal-body" id="bodyModalContainer">
+
+            <div class="rowModal ">
+              <div class="rowModalContent rowModalContent1">
+                <img src="MUL/modal/Elementos/Muñeco.png" alt="" id="img-robots-modal">
+
+              </div>
+              <div class="rowModalContent rowModalContent2">
+                <div id="rowBtnModal">
+                  <button id="btnPause" type="button" class="btnPause" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="MUL/modal/Elementos/Btn_cerrar.png" alt="" class="btnImg" ></button>
+                </div>
+                
+                <img src="MUL/modal/Elementos/video_imagen.png" alt="" id="videoModal">
+                <img src="MUL/modal/Elementos/Banner_video/fondo.png" alt="" id="imgBanner">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  
+    <section class="viewBody">
+
+      <div id="containerOne" class="containerOne" >
+        <img src="MUL/navegacion/Robots/Robot_press.png" alt="" id="img-robots-press">
+      </div>
+
+        <div class="circleOne">
+            <img class="imgvWheel" src="MUL/navegacion/menu/1.png" alt="Imagen 1" id="img1" onclick="rotation(1);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/2.png" alt="Imagen 2" id="img2" onclick="rotation(2);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/3.png" alt="Imagen 3" id="img3" onclick="rotation(3);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/4.png" alt="Imagen 4" id="img4" onclick="rotation(4);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/5.png" alt="Imagen 5" id="img5" onclick="rotation(5);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/6.png" alt="Imagen 6" id="img6" onclick="rotation(6);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/7.png" alt="Imagen 7" id="img7" onclick="rotation(7);">
+            <img class="imgvWheel" src="MUL/navegacion/menu/8.png" alt="Imagen 8" id="img8" onclick="rotation(8);">
+            <img onclick="openModal('modalVideo')" class="imgCircleClic" src="MUL/navegacion/menu/btn_central.png" alt="Imagen 0" id="imgClic" >
+        </div>
+          
+    </section>
+    <script src="scrip.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
