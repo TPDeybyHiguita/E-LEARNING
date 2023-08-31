@@ -402,15 +402,17 @@ transform: scale(0.8);
 
 .rowModalContent{
     display: flex;
-    width: 50%;
+    
 }
 
 .rowModalContent2{
     flex-direction: column;
+    width: 60%;
 }
 .rowModalContent1{
     justify-content: center;
     align-items: center;
+    width: 40%;
 }
 
 .btnImg{
@@ -425,7 +427,7 @@ transform: scale(0.8);
 }
 
 #videoModal{
-    width: 80%;
+    width: 85%;
 }
 
 #rowBtnModal {
