@@ -20,7 +20,7 @@ body
 .img-robots-btn1 {
     width: 30%;
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 5%;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -444,4 +444,21 @@ transform: scale(0.8);
     border: none;
     color: transparent;
     background: transparent;
+}
+  
+/* Cambiar el fondo y el color del texto del popover */
+.popover-content {
+  background-color: #f5f5f5; /* Cambia el color de fondo del popover */
+  color: #333; /* Cambia el color del texto del popover */
+}
+
+/* Cambiar el estilo del título del popover */
+.popover-title {
+  background-color: #333; /* Cambia el color de fondo del título */
+  color: #fff; /* Cambia el color del texto del título */
+}
+
+/* Cambiar el estilo de la flecha del popover */
+.popover.top .arrow::before {
+  border-top-color: #f5f5f5; /* Cambia el color de fondo de la flecha */
 }

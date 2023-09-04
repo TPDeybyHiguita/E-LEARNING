@@ -519,7 +519,6 @@ function loadNewImgClick(img) {
   var contDiv =   '<div id="rowContainerOne">' +
                   '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
                   '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2">' +
-                  '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2">' +
                   '</div>';
   div.innerHTML = contDiv;
 }
@@ -585,3 +584,20 @@ function changeBackground(id, urlImg) {
   var myDiv = document.getElementById(id);
   myDiv.style.backgroundImage = "url('"+urlImg+"')";
 }
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover({
+    trigger: 'hover',
+    html: true,
+    content: function () {
+      return '';
+    },
+    title: function () {
+      return $(this).attr('title'); // Obtiene el valor del atributo 'title'
+    }
+  });
+});
+
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
