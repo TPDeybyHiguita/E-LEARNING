@@ -1,5 +1,14 @@
 /*V2*/
 
+let urlModule1 = '';
+let urlModule2 = '';
+let urlModule3 = '';
+let urlModule4 = '';
+let urlModule5 = '';
+let urlModule6 = '';
+let urlModule7 = '';
+let urlModule8 = '';
+
 
 function activeActionOne(id_a, id_img) {
   var label_a = document.getElementById(id_a);
@@ -23,6 +32,11 @@ function activeActionOne(id_a, id_img) {
     activeFuncionOne(newId_a_1, newId_a_2, id_a);
 
 }
+
+function openWindows(url) {
+  window.location.href = url;
+}
+
 
 function activeFuncionOne(id_a, id_img, idActive){
   var btnAction = document.getElementById(idActive);
@@ -333,7 +347,7 @@ function rotation(idImg)
       imagen6.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen7.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen8.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay1);
+      loadNewImgClick(idImg);
       
       break;
     case 2:
@@ -354,7 +368,7 @@ function rotation(idImg)
       imagen7.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen8.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen1.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay2);
+      loadNewImgClick(idImg);
 
       break;
 
@@ -369,15 +383,16 @@ function rotation(idImg)
     imagen7.src = opcion35;
     imagen8.src = opcion36;
 
-      imagen3.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
-      imagen4.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
-      imagen5.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
-      imagen6.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
-      imagen7.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
-      imagen8.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
-      imagen1.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
-      imagen2.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay3);
+    imagen3.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
+    imagen4.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
+    imagen5.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
+    imagen6.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
+    imagen7.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
+    imagen8.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
+    imagen1.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
+    imagen2.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
+    
+    loadNewImgClick(idImg);
 
       break;
     
@@ -392,15 +407,15 @@ function rotation(idImg)
     imagen7.src = opcion44;
     imagen8.src = opcion45;
     
-      imagen4.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
-      imagen5.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
-      imagen6.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
-      imagen7.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
-      imagen8.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
-      imagen1.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
-      imagen2.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
-      imagen3.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay4);
+    imagen4.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
+    imagen5.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
+    imagen6.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
+    imagen7.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
+    imagen8.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
+    imagen1.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
+    imagen2.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
+    imagen3.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
+      loadNewImgClick(idImg);
       break;
 
     case 5:
@@ -422,7 +437,7 @@ function rotation(idImg)
       imagen2.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen3.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen4.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay5);
+      loadNewImgClick(idImg);
       break;
         
     case 6:
@@ -444,7 +459,7 @@ function rotation(idImg)
       imagen3.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen4.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen5.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay6);
+      loadNewImgClick(idImg);
       break;
 
     case 7:
@@ -466,7 +481,7 @@ function rotation(idImg)
       imagen4.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen5.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen6.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay7);
+      loadNewImgClick(idImg);
     break;
 
     case 8:
@@ -488,39 +503,132 @@ function rotation(idImg)
       imagen5.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
       imagen6.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
       imagen7.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay8);
+      loadNewImgClick(idImg);
     break;
     default:
-      imagen1.src = opcion11;
-      imagen2.src = opcion12;
-      imagen3.src = opcion13;
-      imagen4.src = opcion14;
-      imagen5.src = opcion15;
-      imagen6.src = opcion16;
-      imagen7.src = opcion17;
-      imagen8.src = opcion18;
-
-      imagen1.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
-      imagen2.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
-      imagen3.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
-      imagen4.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
-      imagen5.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
-      imagen6.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
-      imagen7.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
-      imagen8.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
-      loadNewImgClick(videoDay0);
+      imagen4.src = opcion44;
+      imagen5.src = opcion45;
+      imagen6.src = opcion46;
+      imagen7.src = opcion47;
+      imagen8.src = opcion48;
+      imagen1.src = opcion41;
+      imagen2.src = opcion42;
+      imagen3.src = opcion43;
+      
+      imagen4.style.transform = "rotate(271deg) translate(200px) rotate(-271deg)";
+      imagen5.style.transform = "rotate(316deg) translate(200px) rotate(-316deg)";
+      imagen1.style.transform = "rotate(1deg) translate(200px) rotate(-1deg)";
+      imagen7.style.transform = "rotate(46deg) translate(200px) rotate(-46deg)";
+      imagen8.style.transform = "rotate(91deg) translate(200px) rotate(-91deg)";
+      imagen1.style.transform = "rotate(136deg) translate(200px) rotate(-136deg)";
+      imagen2.style.transform = "rotate(181deg) translate(200px) rotate(-181deg)";
+      imagen3.style.transform = "rotate(226deg) translate(200px) rotate(-226deg)";
+      loadNewImgClick(idImg);
       break;
   }
 
 }
 
-function loadNewImgClick(img) {
-  var div = document.getElementById('containerOne');
-  var contDiv =   '<div id="rowContainerOne">' +
-                  '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                  '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2">' +
-                  '</div>';
-  div.innerHTML = contDiv;
+function loadNewImgClick(idImg) {
+  switch (idImg) {
+    case 1:
+      let urldestino1 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn11.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn21.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino1 + '\');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+      
+      break;
+    case 2:
+      let urldestino2 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino2+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+
+    case 3:
+      let urldestino3 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino3+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+
+      break;
+    
+    case 4:
+
+    let urldestino4 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino4+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+      break;
+
+    case 5:
+
+    let urldestino5 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino5+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+      break;
+        
+    case 6:
+
+    let urldestino6 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino6+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+      break;
+
+    case 7:
+
+    let urldestino7 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino7+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+    break;
+
+    case 8:
+      let urldestino8 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      
+    var div = document.getElementById('containerOne');
+    var contDiv =   '<div id="rowContainerOne">' +
+                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino8+');">' +
+                    '</div>';
+    div.innerHTML = contDiv;
+    break;
+    default:
+      break;
+  }
+
+
+
+
 }
 
 
@@ -554,13 +662,8 @@ function openModal(id){
   modal.show();
 }
 
-function closeModal(id) {
-  alert(id)
-  const modal = new bootstrap.Modal(document.getElementById(id));
 
-  // Cerrar el modal
-  modal.hide();
-}
+
 
 
 
@@ -598,6 +701,9 @@ $(document).ready(function(){
   });
 });
 
+function newWindows(url) {
+  window.open(url, '_blank'); // Abre la URL en una nueva ventana o pestaña
+}
 
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))

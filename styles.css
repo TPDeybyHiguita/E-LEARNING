@@ -18,19 +18,20 @@ body
     justify-content: flex-end;
 }
 .img-robots-btn1 {
-    width: 30%;
-    margin-left: 40%;
-    margin-top: 5%;
+    width: 42%;
+    margin-left: 34%;
+    margin-top: 12%;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-.img-robots-btn2{
+.img-robots-btn2 {
     width: 35%;
     margin-left: 35%;
     cursor: pointer;
     margin-top: 10px;
     transition: transform 0.3s ease;
+    margin-top: 10%;
 }
 
 .img-robots-btn2:hover, .img-robots-btn1:hover {
@@ -44,7 +45,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 40%;
+    width: 46%;
     height: 471px;
     margin-left: -5%;
 }
@@ -74,7 +75,7 @@ body
     z-index: 2 !important;
     transform: rotate(0deg) translate(0px) rotate(-0deg) !important;
     cursor: pointer;
-    animation: twinkle 1s ease-in-out infinite;
+    /*animation: twinkle 1s ease-in-out infinite;*/
  }
 
  /* Definir la animación llamada 'destellar' */
@@ -134,8 +135,8 @@ body
 {
     position: absolute ;
     width: 180px ; /* ajusta el tamaño de las imágenes según tus necesidades */
-    height: auto ; /* ajusta el tamaño de las imágenes según tus necesidades */
-     transition: transform 1s ;
+    height: auto ; /* ajusta el tamaño de las imágenes según tus necesidades 
+     transition: transform 1s ;*/
      transform: translate(-50%, -50%) ;
      z-index: 2 ;
 }
@@ -179,7 +180,7 @@ body
     flex-direction: column;
     justify-content: center;
     margin-top: 10%;
-    transition: transform 0.3s ease;
+    /*transition: transform 0.3s ease;*/
 }
 .containerTwo {
     flex-direction: column;
@@ -187,7 +188,7 @@ body
     align-items: flex-start;
     margin-left: 10%;
     margin-top: 0%;
-    transition: transform 0.3s ease;
+    /*transition: transform 0.3s ease;*/
 }
 
 .containerThree {
@@ -196,7 +197,7 @@ body
     align-items: flex-start;
     margin-left: 10%;
     margin-top: 0%;
-    transition: transform 0.3s ease;
+    /*transition: transform 0.3s ease;*/
 }
 
 .containerFour {
@@ -263,7 +264,7 @@ body
 }
 .imgvWheel{
     cursor: pointer;
-    transition: transform 0.3s ease;
+    /*transition: transform 0.3s ease;*/
 }
 
 .imgvWheel:hover{
