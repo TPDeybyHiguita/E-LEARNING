@@ -532,33 +532,48 @@ function rotation(idImg)
 function loadNewImgClick(idImg) {
   switch (idImg) {
     case 1:
-      let urldestino1 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino11 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino12 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
-    var div = document.getElementById('containerOne');
-    var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn11.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn21.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino1 + '\');">' +
-                    '</div>';
+      var div = document.getElementById('containerOne');
+      var contDiv =
+      '<div id="rowContainerOne">' +
+      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+      '<div class="columnImg">' +
+      '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino11 + '\');">' +
+      '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino12 + '\');">' +
+      '</div>' +
+      '</div>';
     div.innerHTML = contDiv;
-      
       break;
     case 2:
-      let urldestino2 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino21 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino22 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino2+');">' +
+                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                      '<div class="columnImg">'+
+                        '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino21+');">' +
+                        '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino22+');">' +
+                      '</div>'+
                     '</div>';
     div.innerHTML = contDiv;
 
     case 3:
-      let urldestino3 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino31 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino32 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino3+');">' +
+                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                      '<div class="columnImg">'+
+                        '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino31+');">' +
+                        '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino32+');">' +
+                      '</div>'+
                     '</div>';
     div.innerHTML = contDiv;
 
@@ -566,59 +581,82 @@ function loadNewImgClick(idImg) {
     
     case 4:
 
-    let urldestino4 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
-      
-    var div = document.getElementById('containerOne');
-    var contDiv =   '<div id="rowContainerOne">' +
+    let urldestino41 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+    let urldestino42 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
+    
+  var div = document.getElementById('containerOne');
+  var contDiv =   '<div id="rowContainerOne">' +
                     '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino4+');">' +
-                    '</div>';
-    div.innerHTML = contDiv;
+                    '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                    '<div class="columnImg">'+
+                      '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino41+');">' +
+                      '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino14+');">' +
+                    '</div>'+
+                  '</div>';
+  div.innerHTML = contDiv;
       break;
 
     case 5:
 
-    let urldestino5 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
-      
-    var div = document.getElementById('containerOne');
-    var contDiv =   '<div id="rowContainerOne">' +
+    let urldestino51 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+    let urldestino52 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
+    
+  var div = document.getElementById('containerOne');
+  var contDiv =   '<div id="rowContainerOne">' +
                     '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino5+');">' +
-                    '</div>';
-    div.innerHTML = contDiv;
+                    '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                    '<div class="columnImg">'+
+                      '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino51+');">' +
+                      '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino52+');">' +
+                    '</div>'+
+                  '</div>';
+  div.innerHTML = contDiv;
       break;
         
     case 6:
-
-    let urldestino6 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino61 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino62 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino6+');">' +
+                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                      '<div class="columnImg">'+
+                        '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino61+');">' +
+                        '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino62+');">' +
+                      '</div>'+
                     '</div>';
     div.innerHTML = contDiv;
       break;
 
     case 7:
-
-    let urldestino7 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino71 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino72 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino7+');">' +
+                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                      '<div class="columnImg">'+
+                        '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino71+');">' +
+                        '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino72+');">' +
+                      '</div>'+
                     '</div>';
     div.innerHTML = contDiv;
     break;
 
     case 8:
-      let urldestino8 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino81 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=164171';
+      let urldestino82 = 'https://elearningfactory.com.co/mod/hvp/view.php?id=165929';
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn2.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino8+');">' +
+                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
+                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
+                      '<div class="columnImg">'+
+                        '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino81+');">' +
+                        '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino82+');">' +
+                      '</div>'+
                     '</div>';
     div.innerHTML = contDiv;
     break;
