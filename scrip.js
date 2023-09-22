@@ -538,8 +538,6 @@ function loadNewImgClick(idImg) {
       var div = document.getElementById('containerOne');
       var contDiv =
       '<div id="rowContainerOne">' +
-      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
       '<div class="columnImg">' +
       '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino11 + '\');">' +
       '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows(\'' + urldestino12 + '\');">' +
@@ -553,8 +551,6 @@ function loadNewImgClick(idImg) {
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                       '<div class="columnImg">'+
                         '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino21+');">' +
                         '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino22+');">' +
@@ -568,8 +564,6 @@ function loadNewImgClick(idImg) {
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                       '<div class="columnImg">'+
                         '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino31+');">' +
                         '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino32+');">' +
@@ -586,8 +580,6 @@ function loadNewImgClick(idImg) {
     
   var div = document.getElementById('containerOne');
   var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                     '<div class="columnImg">'+
                       '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino41+');">' +
                       '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino14+');">' +
@@ -603,8 +595,6 @@ function loadNewImgClick(idImg) {
     
   var div = document.getElementById('containerOne');
   var contDiv =   '<div id="rowContainerOne">' +
-                    '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                    '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                     '<div class="columnImg">'+
                       '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino51+');">' +
                       '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino52+');">' +
@@ -619,8 +609,6 @@ function loadNewImgClick(idImg) {
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                       '<div class="columnImg">'+
                         '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino61+');">' +
                         '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino62+');">' +
@@ -635,8 +623,6 @@ function loadNewImgClick(idImg) {
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                       '<div class="columnImg">'+
                         '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino71+');">' +
                         '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino72+');">' +
@@ -651,8 +637,6 @@ function loadNewImgClick(idImg) {
       
     var div = document.getElementById('containerOne');
     var contDiv =   '<div id="rowContainerOne">' +
-                      '<img src="MUL/navegacion/btn1.png" alt="" class="img-robots-btn1">' +
-                      '<img src="MUL/navegacion/btn3.png" alt="" class="img-robots-btn3">' +
                       '<div class="columnImg">'+
                         '<img src="MUL/navegacion/ESPAÑOL.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino81+');">' +
                         '<img src="MUL/navegacion/INGLES.png" alt="" class="img-robots-btn2" onclick="newWindows('+urldestino82+');">' +

@@ -30,6 +30,7 @@ body
     align-items: center;
     margin-left: 25%;
     gap: 30px;
+    margin-top: -33%;
 }
 
 .img-robots-btn2 {
@@ -53,7 +54,7 @@ body
 }
 
 #rowContainerOne {
-    background-image: url(MUL/navegacion/fondos/fondoHolograma.png);
+    background-image: url(MUL/navegacion/fondos/fondoH.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
